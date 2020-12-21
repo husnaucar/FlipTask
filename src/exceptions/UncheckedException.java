@@ -11,8 +11,11 @@ public class UncheckedException {
 	}
 	catch(ArithmeticException e) {
 		System.out.println("You can not divide by zero");
-		System.out.println(e.getMessage());
 		
+		
+	}
+	finally{
+		System.out.println(e.getMessage());
 	}
 				
 			
